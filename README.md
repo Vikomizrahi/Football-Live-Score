@@ -18,9 +18,9 @@
     <pre><code>cd Football-Live-Score</code></pre>
     <li>Install http-server:</li>
     <pre><code>npm install -g http-server</code></pre>
-    <li>Start a local server using Python:</li>
-    <pre><code>python -m http.server</code></pre>
-    <li>Open your web browser.</li>
+    <li>tart the HTTP Server:</li>
+    <pre><code>http-server</code></pre>
+    <li>Open your web browser and navigate to http://localhost:8080 to view the Football Live Score website.</li>
   </ol>
   
   <h2>Usage</h2>
