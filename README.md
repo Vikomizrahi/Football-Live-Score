@@ -16,9 +16,11 @@
     <pre><code>git clone https://github.com/Vikomizrahi/Football-Live-Score.git</code></pre>
     <li>Navigate to the project directory:</li>
     <pre><code>cd Football-Live-Score</code></pre>
+    <li>Install http-server:</li>
+    <pre><code>npm install -g http-server</code></pre>
     <li>Start a local server using Python:</li>
     <pre><code>python -m http.server</code></pre>
-    <li>Open your web browser and navigate to <a href="http://localhost:8000/Football-Live-Score/">http://localhost:8000/Football-Live-Score/</a> to view the website.</li>
+    <li>Open your web browser.</li>
   </ol>
   
   <h2>Usage</h2>
