@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.country {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.league {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.live-match {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.match-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+}
+
+.team img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.score {
+    font-weight: bold;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.score span {
+    padding: 5px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.status {
+    font-style: italic;
+    color: #888;
+}
+
+@keyframes ring {
+    0% {
+        transform: scale(1);
+        border-width: 2px;
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        border-width: 5px;
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        border-width: 2px;
+        opacity: 1;
+    }
+}
+
+/* Additional styles for the popup */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.popup-content {
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
